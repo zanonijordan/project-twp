@@ -1,10 +1,13 @@
 // eslint-disable-next-line
 import {style} from './style.css'
+import { Nav } from './style';
+
 
 export const Menu = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a className="navbar-brand" href="/">Puzzle</a>
+        <Nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <a className="navbar-brand" href="/">World Puzzle</a>
             <button
                 className="navbar-toggler"
                 type="button"
@@ -29,7 +32,7 @@ export const Menu = () => {
                     </li>
                 </ul>
             </div>
-        </nav>
+        </Nav>
     );
 };
 
