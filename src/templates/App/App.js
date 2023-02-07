@@ -1,14 +1,18 @@
 import { Menu } from '../../components/Menu';
 import { Home } from '../Home';
-import './../../styles/App.css';
+import { GlobalStyles } from './../../styles/global-styles';
+import { ThemeProvider } from 'styled-components';
+import { theme } from '../../styles/theme';
+
 
 function App() {
   return (
     <div className="App">
         <Menu />
-      <header className="App-header">
-        <Home />
-      </header>
+        <ThemeProvider theme={theme}>
+          <Home />
+          <GlobalStyles />
+        </ThemeProvider>
     </div>
   );
 }

@@ -26,17 +26,43 @@ export const GlobalStyles = createGlobalStyle`
     margin: ${({ theme }) => theme.spacings.medium} 0;
   }
 
-  ul, ol {
+  ${'' /* ul, ol {
     margin: ${({ theme }) => theme.spacings.medium};
     padding: ${({ theme }) => theme.spacings.medium};
   }
 
   a {
     color: ${({ theme }) => theme.colors.secondaryColor};
-  }
-
-  .table {
-    width: 100%;
-    overflow-y: auto;
-  }
+  } */}
 `;
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.table {
+  width: 100%;
+  overflow-y: auto;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} 
+
+
+  .mainBackground {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+*/

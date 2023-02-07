@@ -1,4 +1,4 @@
-
+import {style} from './style.css'
 
 export const Menu = () =>{
     return (<>

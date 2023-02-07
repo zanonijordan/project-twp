@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Zaptron';
+    src: url(/src/components/Menu/Font/Zaptron-Regular.otf);
+}
+.navbar-brand{
+    font-family: Zaptron;
+    font-weight: bolder;
+}
+
+.navbar {
+    padding: 3rem;
+}
