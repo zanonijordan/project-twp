@@ -13,7 +13,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-family: ${({ theme }) => theme.font.family.default};
   }
 

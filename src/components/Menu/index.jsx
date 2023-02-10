@@ -24,7 +24,7 @@ export const Menu = () => {
                     <li className="nav-item">
                         <a className="nav-link" href="/contact">Contact</a>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                         <a className="nav-link" href="/pricing">Pricing</a>
                     </li>
                     <li className="nav-item">
