@@ -1,14 +1,14 @@
 import P from 'prop-types';
 import * as Styled from './styles';
 
-export const Section = ({ children }) => {
+export const SectionContainer = ({ children }) => {
     return (
         <Styled.Container>
-            <h1>{children}</h1>
+            {children}
         </Styled.Container>
     );
 };
 
-Section.propTypes = {
+SectionContainer.propTypes = {
     children: P.node.isRequired,
 };

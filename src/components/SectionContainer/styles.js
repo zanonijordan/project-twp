@@ -2,6 +2,9 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.section`
     ${({ theme }) => css`
-        height: 70%;
+        max-width: 120rem;
+        margin: 0 auto;
+        padding: ${theme.spacings.large};
+
     `}
 `;
