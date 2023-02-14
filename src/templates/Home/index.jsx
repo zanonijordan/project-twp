@@ -7,9 +7,7 @@ export const Home = ({ children }) => {
     return (
         <Styled.Container>
             <SectionBackground>
-            <Heading />
-                <h2>Titulo</h2>
-                <p>loremsadfjalskdjfaklsjdfkalsjdfòalsjdfklòasjdfaksdfklòasjdfklajsdfklòasjdfklòajsdfklòa</p>
+                <Heading />
             </SectionBackground>
         </Styled.Container>
     );

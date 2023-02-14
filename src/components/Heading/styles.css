@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Zaptron';
+    src: url(/src/components/Menu/Font/Zaptron-Regular.otf);
+}
+
+.title {
+    font-family: Zaptron;
+    font-weight: bolder;
+    color: #008C75;
+}
+
+.title-p {
+    color: #008C75;
+}
+
+@media (max-width: 1199px) {
+    .title{
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .title{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 773px) {
+    .title{
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 549px) {
+    .title{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 415px) {
+    .title{
+        font-size: 1.6rem;
+    }
+}
+
+
+/* @media (min-width: 768px) {
+    .title{
+        font-size: 3rem;
+    }
+} */
+
+/* @media (min-width: 769) {
+    .title{
+        font-size: 5rem;
+    }
+} */

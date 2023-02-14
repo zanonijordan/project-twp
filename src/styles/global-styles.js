@@ -26,6 +26,10 @@ export const GlobalStyles = createGlobalStyle`
   p {
     margin: ${({ theme }) => theme.spacings.medium} 0;
     color: black;
+  } 
+
+  h1 {
+    font-size: ${({ theme }) => theme.font.sizes.xsmall};
   }
 
 

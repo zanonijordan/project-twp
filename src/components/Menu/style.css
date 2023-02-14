@@ -5,8 +5,13 @@
 .navbar-brand{
     font-family: Zaptron;
     font-weight: bolder;
+    color: #008C75;
 }
 
 .navbar {
     padding: 3rem;
+}
+
+.nav-link {
+    color: #008C75;
 }
