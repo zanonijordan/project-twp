@@ -9,7 +9,6 @@ export const Container = styled.div`
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-
         min-height: 100vh;
         display: flex;
         align-items: center;

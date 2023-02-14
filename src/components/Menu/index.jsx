@@ -25,7 +25,7 @@ export const Menu = () => {
                         <a className="nav-link" href="/contact">Contact</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/downloads">Login</a>
+                        <a className="nav-link" href="/login">Login</a>
                     </li>
                 </ul>
             </div>
